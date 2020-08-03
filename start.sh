@@ -1,7 +1,7 @@
 cd terraform
 
 terraform apply -auto-approve \
-    -var 'server=logisticsCoreSystemsDb' \
-    -var 'pusername='$USERNAME'' \
-    -var 'ppassword='$PASSWORD'' \
+    -var 'server=logisticscoresystemsdb' \
+    -var 'username='$PUSERNAME'' \
+    -var 'password='$PPASSWORD'' \
     -var 'database=logistics'
