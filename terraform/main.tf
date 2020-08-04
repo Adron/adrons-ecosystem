@@ -41,18 +41,18 @@ resource "azurerm_postgresql_firewall_rule" "pgfirewallrule" {
   end_ip_address      = "0.0.0.0"
 }
 
-resource "azurerm_container_group" "example" {
-  name                = "example-continst"
+resource "azurerm_container_group" "adronshasure" {
+  name                = "adrons-hasura-logistics-data-layer"
   location            = azurerm_resource_group.adronsrg.location
   resource_group_name = azurerm_resource_group.adronsrg.name
   ip_address_type     = "public"
-  dns_name_label      = "aci-label"
+  dns_name_label      = "logisticsdatalayer"
   os_type             = "Linux"
 
 
   container {
-    name   = "hello-world"
-    image  = "microsoft/aci-helloworld:latest"
+    name   = "hasura-data-layer"
+    image  = "hasura/graphql-engine"
     cpu    = "0.5"
     memory = "1.5"
 
@@ -66,15 +66,8 @@ resource "azurerm_container_group" "example" {
       HASURA_GRAPHQL_ENABLE_CONSOLE = true
     }
     secure_environment_variables = {
-      HASURA_GRAPHQL_DATABASE_URL = azurerm_postgresql_server.logisticsserver.fqdn
+      HASURA_GRAPHQL_DATABASE_URL = "postgres://${var.username}%40${azurerm_postgresql_server.logisticsserver.name}:${var.password}@${azurerm_postgresql_server.logisticsserver.fqdn}:5432/${var.database}"
     }
-  }
-
-  container {
-    name   = "hasura-graphql-engine"
-    image  = "hasura/graphql-engine"
-    cpu    = "0.5"
-    memory = "1.5"
   }
 
   tags = {
@@ -96,4 +89,8 @@ variable "username" {
 
 variable "password" {
   type = string
+}
+
+output "hasura_url" {
+  value = "postgres://${var.username}%40${azurerm_postgresql_server.logisticsserver.name}:${var.password}@${azurerm_postgresql_server.logisticsserver.fqdn}:5432/${var.database}"
 }

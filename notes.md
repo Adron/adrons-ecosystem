@@ -10,3 +10,6 @@ When creating a postgres database in Azure it is very important to get the usern
 ## References
 
 https://hasura.io/docs/1.0/graphql/manual/deployment/deployment-guides/azure-container-instances-postgres.html
+
+https://dev.to/nick_garfield/building-a-secure-graphql-app-in-minutes-with-hasura-58fc
+
