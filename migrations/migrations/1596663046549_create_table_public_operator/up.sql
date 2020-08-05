@@ -1,0 +1,2 @@
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+CREATE TABLE "public"."operator"("id" uuid NOT NULL DEFAULT gen_random_uuid(), "trainId" uuid NOT NULL, "railroadId" uuid NOT NULL, "details" text, PRIMARY KEY ("id") , FOREIGN KEY ("trainId") REFERENCES "public"."train"("id") ON UPDATE restrict ON DELETE restrict, FOREIGN KEY ("railroadId") REFERENCES "public"."railroad"("id") ON UPDATE restrict ON DELETE restrict, UNIQUE ("id"));

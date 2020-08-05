@@ -11,3 +11,7 @@ https://hasura.io/docs/1.0/graphql/manual/deployment/deployment-guides/azure-con
 
 https://dev.to/nick_garfield/building-a-secure-graphql-app-in-minutes-with-hasura-58fc
 
+## Docs to Fix
+
+* https://hasura.io/docs/1.0/graphql/manual/migrations/basics.html#migrations-basics > The initialization should add what the <endpoint> is exactly (and maybe where it is located in the config). Per the specific docs page details too.
+
