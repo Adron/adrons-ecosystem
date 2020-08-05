@@ -1,0 +1,23 @@
+version: '3.6'
+services:
+  postgres:
+    image: postgres:12
+    restart: always
+    volumes:
+      - db_data:/Users/adron/Codez/databases
+    environment:
+      POSTGRES_PASSWORD: logistics
+    ports:
+      - 5432:5432
+  graphql-engine:
+    image: hasura/graphql-engine:v1.1.0
+    ports:
+      - "4400:8080"
+    depends_on:
+      - "postgres"
+    restart: always
+    environment:
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:logistics@postgres:5432/postgres
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
+volumes:
+  db_data:
