@@ -6,7 +6,7 @@ services:
     volumes:
       - db_data:/Users/adron/Codez/databases
     environment:
-      POSTGRES_PASSWORD: logistics
+      POSTGRES_PASSWORD: ${PPASSWORD}
     ports:
       - 5432:5432
   graphql-engine:
