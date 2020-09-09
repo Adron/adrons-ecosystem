@@ -370,7 +370,42 @@ terraform apply -auto-approve \
     -var 'database=logistics'
 ```
 
+Executing that script gives me results that, if everything goes right, looks similarly to this.
 
+```shell
+./prod-start.sh 
+azurerm_resource_group.adronsrg: Creating...
+azurerm_resource_group.adronsrg: Creation complete after 1s [id=/subscriptions/77ad15ff-226a-4aa9-bef3-648597374f9c/resourceGroups/adrons-rg]
+azurerm_postgresql_server.logisticsserver: Creating...
+azurerm_postgresql_server.logisticsserver: Still creating... [10s elapsed]
+azurerm_postgresql_server.logisticsserver: Still creating... [20s elapsed]
+
+
+...and it continues.
+```
+
+Do note that this process will take a different amount of time and is completely normal for it to take ~3 or more minutes. Once the server is done in the build process a lot of the other activities start to take place very quickly. Once it's all done, toward the end of the output I get my hasura_url output variable so that I can confirm that it is indeed put together correctly! Now that this is preformed I can take next steps and remove that output variable, start to tighten security, and other steps. Which I'll detail in a future blog post once more of the application is built.
+
+```shell
+... other output here ...
+
+
+azurerm_container_group.adronshasure: Still creating... [40s elapsed]
+azurerm_postgresql_database.logisticsdb: Still creating... [40s elapsed]
+azurerm_postgresql_database.logisticsdb: Still creating... [50s elapsed]
+azurerm_container_group.adronshasure: Still creating... [50s elapsed]
+azurerm_postgresql_database.logisticsdb: Creation complete after 51s [id=/subscriptions/77ad15ff-226a-4aa9-bef3-648597374f9c/resourceGroups/adrons-rg/providers/Microsoft.DBforPostgreSQL/servers/logisticscoresystemsdb/databases/logistics]
+azurerm_container_group.adronshasure: Still creating... [1m0s elapsed]
+azurerm_container_group.adronshasure: Creation complete after 1m4s [id=/subscriptions/77ad15ff-226a-4aa9-bef3-648597374f9c/resourceGroups/adrons-rg/providers/Microsoft.ContainerInstance/containerGroups/adrons-hasura-logistics-data-layer]
+
+Apply complete! Resources: 5 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+hasura_url = postgres://postgres%40logisticscoresystemsdb:theSecretPassword!@logisticscoresystemsdb.postgres.database.azure.com:5432/logistics
+```
+
+Now if I navigate over to `logisticsdatalayer.westus2.azurecontainer.io` I can view the Hasura console! But where in the world is this fully qualified domain name (FQDN)?
 
 ## References
 
@@ -378,7 +413,7 @@ terraform apply -auto-approve \
 * [Hasura (OSS)](https://hasura.io/opensource/)
 * My past post about the data model I'll be working with, ["Beyond CRUD n’ Cruft Data-Modeling"](https://compositecode.blog/2019/11/25/beyond-crud-n-cruft-data-modeling/)
 
-## Sign Up for Thrashing Code!
+## Sign Up for Thrashing Code
 
 For JavaScript, Go, Python, Terraform, and more infrastructure, web dev, and coding in general I stream regularly on Twitch at [https://twitch.tv/adronhall](https://twitch.tv/adronhall), post the VOD's to YouTube along with entirely new tech and *metal* content at [https://youtube.com/c/ThrashingCode](https://youtube.com/c/ThrashingCode).
 

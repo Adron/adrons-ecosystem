@@ -49,7 +49,6 @@ resource "azurerm_container_group" "adronshasure" {
   dns_name_label      = "logisticsdatalayer"
   os_type             = "Linux"
 
-
   container {
     name   = "hasura-data-layer"
     image  = "hasura/graphql-engine"
