@@ -51,7 +51,7 @@ resource "azurerm_container_group" "adronshasure" {
 
   container {
     name   = "hasura-data-layer"
-    image  = "hasura/graphql-engine"
+    image  = "hasura/graphql-engine:v1.3.2"
     cpu    = "0.5"
     memory = "1.5"
 
@@ -90,6 +90,10 @@ variable "password" {
   type = string
 }
 
-output "hasura_url" {
-  value = "postgres://${var.username}%40${azurerm_postgresql_server.logisticsserver.name}:${var.password}@${azurerm_postgresql_server.logisticsserver.fqdn}:5432/${var.database}"
+// output "hasura_url" {
+//   value = "postgres://${var.username}%40${azurerm_postgresql_server.logisticsserver.name}:${var.password}@${azurerm_postgresql_server.logisticsserver.fqdn}:5432/${var.database}"
+// }
+
+output "hasura_uri_path" {
+  value = azurerm_container_group.adronshasure.fqdn
 }
