@@ -76,7 +76,37 @@ docker-compose down
 
 🚀 That's it for the basic development environment, we're launched and ready for development. With the services started, navigate to [https://localhost:8080/console](https://localhost:8080/console) to start working with the user interface, which I'll have a more details on the ["Beyond CRUD n’ Cruft Data-Modeling"](https://compositecode.blog/2019/11/25/beyond-crud-n-cruft-data-modeling/) swap to Hasura and Postgres in an upcoming blog post.
 
+For full syntax of the docker-compose.yaml file, I've included it here:
+
+```yaml
+version: '3.6'
+services:
+  postgres:
+    image: postgres:12
+    restart: always
+    volumes:
+      - db_data:/Users/adron/Codez/databases
+    environment:
+      POSTGRES_PASSWORD: ${PPASSWORD}
+    ports:
+      - 5432:5432
+  graphql-engine:
+    image: hasura/graphql-engine:v1.1.0
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "postgres"
+    restart: always
+    environment:
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:logistics@postgres:5432/postgres
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
+volumes:
+  db_data:
+```
+
 ## Terraform Production Environment
+
+For the production deployment of this stack I wanted to deploy to Azure, use Terraform for infrastructure as code, and the Azure database service for Postgres.
 
 ## References
 
@@ -84,3 +114,8 @@ docker-compose down
 * [Hasura (OSS)](https://hasura.io/opensource/)
 * My past post about the data model I'll be working with, ["Beyond CRUD n’ Cruft Data-Modeling"](https://compositecode.blog/2019/11/25/beyond-crud-n-cruft-data-modeling/)
 
+## Sign Up for Thrashing Code!
+
+For JavaScript, Go, Python, Terraform, and more infrastructure, web dev, and coding in general I stream regularly on Twitch at [https://twitch.tv/adronhall](https://twitch.tv/adronhall), post the VOD's to YouTube along with entirely new tech and *metal* content at [https://youtube.com/c/ThrashingCode](https://youtube.com/c/ThrashingCode).
+
+For more blogging, I've got https://compositecode.blog and the [Thrashing Code Newsletter](https://compositecode.blog/thrashing-composite-code-newsletter/), sign up for it [here](https://compositecode.blog/thrashing-composite-code-newsletter/)!
