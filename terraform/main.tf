@@ -9,10 +9,10 @@ resource "azurerm_resource_group" "adronsrg" {
 }
 
 resource "azurerm_postgresql_server" "logisticsserver" {
-  name = var.server
-  location = azurerm_resource_group.adronsrg.location
+  name                = var.server
+  location            = azurerm_resource_group.adronsrg.location
   resource_group_name = azurerm_resource_group.adronsrg.name
-  sku_name = "B_Gen5_2"
+  sku_name            = "B_Gen5_2"
 
   storage_mb                   = 5120
   backup_retention_days        = 7
@@ -21,7 +21,7 @@ resource "azurerm_postgresql_server" "logisticsserver" {
 
   administrator_login          = var.username
   administrator_login_password = var.password
-  version                      = "9.5"
+  version                      = "11"
   ssl_enforcement_enabled      = true
 }
 
@@ -33,13 +33,13 @@ resource "azurerm_postgresql_database" "logisticsdb" {
   collation           = "English_United States.1252"
 }
 
-resource "azurerm_postgresql_firewall_rule" "pgfirewallrule" {
-  name                = "allow-azure-internal"
-  resource_group_name = azurerm_resource_group.adronsrg.name
-  server_name         = azurerm_postgresql_server.logisticsserver.name
-  start_ip_address    = "0.0.0.0"
-  end_ip_address      = "0.0.0.0"
-}
+//resource "azurerm_postgresql_firewall_rule" "pgfirewallrule" {
+//  name                = "allow-azure-internal"
+//  resource_group_name = azurerm_resource_group.adronsrg.name
+//  server_name         = azurerm_postgresql_server.logisticsserver.name
+//  start_ip_address    = "0.0.0.0"
+//  end_ip_address      = "0.0.0.0"
+//}
 
 resource "azurerm_container_group" "adronshasure" {
   name                = "adrons-hasura-logistics-data-layer"
@@ -56,12 +56,12 @@ resource "azurerm_container_group" "adronshasure" {
     memory = "1.5"
 
     ports {
-      port     = 80
+      port     = var.apiport
       protocol = "TCP"
     }
 
     environment_variables = {
-      HASURA_GRAPHQL_SERVER_PORT = 80
+      HASURA_GRAPHQL_SERVER_PORT    = var.apiport
       HASURA_GRAPHQL_ENABLE_CONSOLE = true
     }
     secure_environment_variables = {
@@ -90,10 +90,14 @@ variable "password" {
   type = string
 }
 
-// output "hasura_url" {
-//   value = "postgres://${var.username}%40${azurerm_postgresql_server.logisticsserver.name}:${var.password}@${azurerm_postgresql_server.logisticsserver.fqdn}:5432/${var.database}"
-// }
+variable "apiport" {
+  type = number
+}
 
 output "hasura_uri_path" {
-  value = azurerm_container_group.adronshasure.fqdn
+  value = "${azurerm_container_group.adronshasure.fqdn}:${var.apiport}"
+}
+
+output "postgres_uri" {
+  value = azurerm_postgresql_server.logisticsserver.fqdn
 }
