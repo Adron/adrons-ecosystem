@@ -33,13 +33,13 @@ resource "azurerm_postgresql_database" "logisticsdb" {
   collation           = "English_United States.1252"
 }
 
-//resource "azurerm_postgresql_firewall_rule" "pgfirewallrule" {
-//  name                = "allow-azure-internal"
-//  resource_group_name = azurerm_resource_group.adronsrg.name
-//  server_name         = azurerm_postgresql_server.logisticsserver.name
-//  start_ip_address    = "0.0.0.0"
-//  end_ip_address      = "0.0.0.0"
-//}
+resource "azurerm_postgresql_firewall_rule" "pgfirewallrule" {
+  name                = "allow-azure-internal"
+  resource_group_name = azurerm_resource_group.adronsrg.name
+  server_name         = azurerm_postgresql_server.logisticsserver.name
+  start_ip_address    = "0.0.0.0"
+  end_ip_address      = "0.0.0.0"
+}
 
 resource "azurerm_container_group" "adronshasure" {
   name                = "adrons-hasura-logistics-data-layer"
@@ -96,8 +96,4 @@ variable "apiport" {
 
 output "hasura_uri_path" {
   value = "${azurerm_container_group.adronshasure.fqdn}:${var.apiport}"
-}
-
-output "postgres_uri" {
-  value = azurerm_postgresql_server.logisticsserver.fqdn
 }

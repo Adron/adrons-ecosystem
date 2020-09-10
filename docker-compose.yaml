@@ -1,7 +1,7 @@
 version: '3.6'
 services:
   postgres:
-    image: library/postgres:10
+    image: library/postgres:11
     restart: always
     volumes:
       - db_data:/Users/adron/Codez/databases
@@ -17,7 +17,7 @@ services:
       - "postgres"
     restart: always
     environment:
-      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:logistics@postgres:5432/postgres
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:${PPASSWORD}@postgres:5432/postgres
       HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
 volumes:
   db_data:
