@@ -3,6 +3,7 @@ Posted:
 * https://dev.to/adron/setup-postgres-and-graphql-api-with-hasura-on-azure-4mne
 * https://compositecode.blog/2020/09/09/setup-postgres-and-graphql-api-with-hasura-on-azure/
 * https://medium.com/@adron/setup-postgres-and-graphql-api-with-hasura-on-azure-980bb1873da4
+* https://dzone.com/articles/setup-postgres-and-graphql-api-with-hasura-on-azur
 
 # Setting up Postgres DB and Graphql API with Hasura
 
