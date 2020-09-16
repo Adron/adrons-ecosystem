@@ -1,2 +1,0 @@
-CREATE EXTENSION IF NOT EXISTS pgcrypto;
-CREATE TABLE "public"."trainSchedules"("id" uuid NOT NULL DEFAULT gen_random_uuid(), "trainId" uuid NOT NULL, "scheduleId" uuid NOT NULL, PRIMARY KEY ("id") , FOREIGN KEY ("trainId") REFERENCES "public"."train"("id") ON UPDATE restrict ON DELETE restrict, FOREIGN KEY ("scheduleId") REFERENCES "public"."schedule"("id") ON UPDATE restrict ON DELETE restrict, UNIQUE ("id"));

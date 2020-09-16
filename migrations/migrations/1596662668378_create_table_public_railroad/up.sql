@@ -1,1 +1,0 @@
-CREATE TABLE "public"."railroad"("id" uuid NOT NULL, "name" text NOT NULL, "history" text, "description" text, "hqCity" text, "serviceArea" text, "mapLink" text, PRIMARY KEY ("id") , UNIQUE ("name"));
