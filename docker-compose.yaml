@@ -4,7 +4,7 @@ services:
     image: library/postgres:11
     restart: always
     volumes:
-      - db_data:/Users/adron/Codez/databases
+      - db_data:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: ${PPASSWORD}
     ports:
