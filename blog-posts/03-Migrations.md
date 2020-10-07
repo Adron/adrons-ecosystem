@@ -16,7 +16,7 @@ Evolutionary Database Design doesn't stop there however. There are additional of
 * Shipping changes with application through automation and related efforts.
 * Using multiple applications with a database, or multiple databases with an application, or multiple databases with multiple applications interlined across each other.
 
-Check out the references at the end of this blog entry for even further material to read about Evolutionary Database Design.
+Check out the references at the end of this blog entry for further material to read about Evolutionary Database Design.
 
 ### My 2 Cents on Evolutionary Database Design
 
@@ -29,3 +29,14 @@ With that stated, it is important to note that this design acumen and practice a
 
 
 ## Database Schema Migrations
+
+
+## References
+
+* [Martin Fowler's & Pramod Sadalage's Evolutionary Database Design Post](https://martinfowler.com/articles/evodb.html)
+* [Refactoring Databases by Pramod Sadalage and Scott Ambler](https://www.amazon.com/gp/product/0321774515/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)
+* [Wikipedia Database Refactoring](https://en.wikipedia.org/wiki/Database_refactoring)
+
+* [Database Refactoring Site](https://www.databaserefactoring.com/)
+* [Pramod Sadalage's](https://twitter.com/pramodsadalage) and [Scott Ambler's](https://twitter.com/scottwambler) Twitter Accounts
+
