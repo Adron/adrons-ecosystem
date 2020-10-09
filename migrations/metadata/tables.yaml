@@ -1,0 +1,24 @@
+- table:
+    schema: logistics
+    name: Consist
+- table:
+    schema: logistics
+    name: Operator
+- table:
+    schema: logistics
+    name: Railraod
+- table:
+    schema: logistics
+    name: Schedule
+- table:
+    schema: logistics
+    name: TimePoint
+- table:
+    schema: logistics
+    name: Train
+- table:
+    schema: logistics
+    name: Unit
+- table:
+    schema: logistics
+    name: UnitType
