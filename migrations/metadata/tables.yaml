@@ -1,9 +1,0 @@
-- table:
-    schema: railroads
-    name: Consist
-- table:
-    schema: railroads
-    name: Train
-- table:
-    schema: railroads
-    name: Unit
