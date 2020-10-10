@@ -40,3 +40,7 @@ With that stated, it is important to note that this design acumen and practice a
 * [Database Refactoring Site](https://www.databaserefactoring.com/)
 * [Pramod Sadalage's](https://twitter.com/pramodsadalage) and [Scott Ambler's](https://twitter.com/scottwambler) Twitter Accounts
 
+
+
+Eh >>>>>  https://youtu.be/fRHZQAEd-Q0
+
