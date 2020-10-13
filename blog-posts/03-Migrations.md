@@ -40,7 +40,7 @@ There are two scenarios I will work through in the following examples. One build
 
 This method uses the following tools and features:
 
-* Hasura CLI
+* Hasura CLI (Installation )
 * Hasura Console
 
 
