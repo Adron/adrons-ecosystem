@@ -11,3 +11,9 @@
 
 ## Developer Environment
 
+To get the development evnironment up and running you'll need to set a couple of environment variables. Do note the prerequisites above as requirements.
+
+1. PUSERNAME which is the Postgres username.
+2. PPASSWORD which is the Postgres password.
+
+Then run the script in the root directory.
