@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCrudder", "DataCrudder\DataCrudder.csproj", "{7881C2FE-E9C5-49EF-A4F4-54E7B7B11D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudderLib", "CrudderLib\CrudderLib.csproj", "{3689455A-3B10-4D31-884E-7AA410737E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudderTests", "CrudderTests\CrudderTests.csproj", "{98F0A139-236E-4679-89AB-940E94D39F57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7881C2FE-E9C5-49EF-A4F4-54E7B7B11D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7881C2FE-E9C5-49EF-A4F4-54E7B7B11D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7881C2FE-E9C5-49EF-A4F4-54E7B7B11D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7881C2FE-E9C5-49EF-A4F4-54E7B7B11D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3689455A-3B10-4D31-884E-7AA410737E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3689455A-3B10-4D31-884E-7AA410737E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3689455A-3B10-4D31-884E-7AA410737E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3689455A-3B10-4D31-884E-7AA410737E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F0A139-236E-4679-89AB-940E94D39F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F0A139-236E-4679-89AB-940E94D39F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F0A139-236E-4679-89AB-940E94D39F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F0A139-236E-4679-89AB-940E94D39F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
