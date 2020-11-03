@@ -1,0 +1,11 @@
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/bin/Debug/netstandard2.0/Acela.deps.json
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/bin/Debug/netstandard2.0/Acela.dll
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/bin/Debug/netstandard2.0/Acela.pdb
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/obj/Debug/netstandard2.0/Acela.csprojAssemblyReference.cache
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/obj/Debug/netstandard2.0/Acela.AssemblyInfoInputs.cache
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/obj/Debug/netstandard2.0/Acela.AssemblyInfo.cs
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/obj/Debug/netstandard2.0/Acela.dll
+/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/obj/Debug/netstandard2.0/Acela.pdb
