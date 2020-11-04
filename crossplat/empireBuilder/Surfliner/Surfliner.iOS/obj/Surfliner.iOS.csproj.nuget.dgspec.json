@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.iOS/Surfliner.iOS.csproj": {}
+    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\crossplat\\empireBuilder\\Surfliner\\Surfliner.iOS\\Surfliner.iOS.csproj": {}
   },
   "projects": {
-    "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.iOS/Surfliner.iOS.csproj": {
+    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\crossplat\\empireBuilder\\Surfliner\\Surfliner.iOS\\Surfliner.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.iOS/Surfliner.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\crossplat\\empireBuilder\\Surfliner\\Surfliner.iOS\\Surfliner.iOS.csproj",
         "projectName": "Surfliner.iOS",
-        "projectPath": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.iOS/Surfliner.iOS.csproj",
-        "packagesPath": "/Users/adron/.nuget/packages/",
-        "outputPath": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.iOS/obj/",
+        "projectPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\crossplat\\empireBuilder\\Surfliner\\Surfliner.iOS\\Surfliner.iOS.csproj",
+        "packagesPath": "C:\\Users\\Adron Hall\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\crossplat\\empireBuilder\\Surfliner\\Surfliner.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/adron/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Adron Hall\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"

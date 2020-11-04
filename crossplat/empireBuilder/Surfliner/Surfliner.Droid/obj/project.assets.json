@@ -6042,20 +6042,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/adron/.nuget/packages/": {}
+    "C:\\Users\\Adron Hall\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.Droid/Surfliner.Droid.csproj",
+      "projectUniqueName": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\crossplat\\empireBuilder\\Surfliner\\Surfliner.Droid\\Surfliner.Droid.csproj",
       "projectName": "Surfliner.Droid",
-      "projectPath": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.Droid/Surfliner.Droid.csproj",
-      "packagesPath": "/Users/adron/.nuget/packages/",
-      "outputPath": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.Droid/obj/",
+      "projectPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\crossplat\\empireBuilder\\Surfliner\\Surfliner.Droid\\Surfliner.Droid.csproj",
+      "packagesPath": "C:\\Users\\Adron Hall\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\crossplat\\empireBuilder\\Surfliner\\Surfliner.Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/adron/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Adron Hall\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid10.0"
