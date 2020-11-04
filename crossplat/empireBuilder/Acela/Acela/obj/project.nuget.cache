@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "y6O+YYi6jiVCudR5a3dGB3K0AUDVtNV8w6Ez5ZsfmwBm1QPnjlOP5d6mOk/6S8OW8/MT6d0KSysDEJm+zrOkig==",
+  "success": true,
+  "projectFilePath": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Acela/Acela/Acela.csproj",
+  "expectedPackageFiles": [
+    "/Users/adron/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/adron/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/adron/.nuget/packages/xamarin.forms/4.4.0.991640/xamarin.forms.4.4.0.991640.nupkg.sha512"
+  ],
+  "logs": []
+}

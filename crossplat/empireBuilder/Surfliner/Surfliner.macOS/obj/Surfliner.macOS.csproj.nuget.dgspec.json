@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.macOS/Surfliner.macOS.csproj": {}
+  },
+  "projects": {
+    "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.macOS/Surfliner.macOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.macOS/Surfliner.macOS.csproj",
+        "projectName": "Surfliner.macOS",
+        "projectPath": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.macOS/Surfliner.macOS.csproj",
+        "packagesPath": "/Users/adron/.nuget/packages/",
+        "outputPath": "/Users/adron/Codez/adrons-ecosystem/crossplat/empireBuilder/Surfliner/Surfliner.macOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/adron/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinmac20"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinmac20": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinmac20": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
