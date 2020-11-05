@@ -1,3 +1,0 @@
-namespace Surfliner.Skia.Gtk
-{
-}
