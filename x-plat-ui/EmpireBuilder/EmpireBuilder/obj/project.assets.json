@@ -8706,7 +8706,7 @@
   },
   "packageFolders": {
     "C:\\Users\\Adron Hall\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
@@ -8718,7 +8718,7 @@
       "outputPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet"
       ],
       "configFilePaths": [
         "C:\\Users\\Adron Hall\\AppData\\Roaming\\NuGet\\NuGet.Config",

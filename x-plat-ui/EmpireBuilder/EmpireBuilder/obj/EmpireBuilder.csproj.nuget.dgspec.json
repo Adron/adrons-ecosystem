@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet"
         ],
         "configFilePaths": [
           "C:\\Users\\Adron Hall\\AppData\\Roaming\\NuGet\\NuGet.Config",
