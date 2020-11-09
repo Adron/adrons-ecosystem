@@ -4,19 +4,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="EmpireBuilder.MainWindow"
-        Title="EmpireBuilder">
-    <StackPanel>
-        <Button Width="160" >My Button</Button>
-        <Calendar SelectionMode="SingleDate" />
-        <Calendar SelectionMode="SingleRange" />
-        <Calendar Name="DisplayDatesCalendar" SelectionMode="SingleDate"/>
-        <CheckBox>Not checked by default</CheckBox>
-        <CheckBox IsChecked="True">Checked by default</CheckBox>
-        <ComboBox SelectedIndex="0">
-            <ComboBoxItem>Inline Items</ComboBoxItem>
-            <ComboBoxItem>Inline Item 2</ComboBoxItem>
-            <ComboBoxItem>Inline Item 3</ComboBoxItem>
-            <ComboBoxItem>Inline Item 4</ComboBoxItem>
-        </ComboBox>
+        Title="Empire Builder"
+		ShowInTaskbar="True"
+		WindowStartupLocation="CenterScreen"
+		MinWidth="640" MinHeight="480"
+		Width="640" Height="480">
+    <StackPanel Width="640" Height="480" Orientation="Horizontal" 
+				MinWidth="640" MinHeight="480"
+				HorizontalAlignment="Left" VerticalAlignment="Top">
+		<StackPanel Margin="5">
+			<Button Click="Button_Click" Width="160" >My Button</Button>			
+		</StackPanel>
+		<StackPanel Margin="5">
+			<CheckBox>Not checked by default</CheckBox>
+			<CheckBox IsChecked="True">Checked by default</CheckBox>
+			<ComboBox SelectedIndex="0">
+				<ComboBoxItem>Inline Item 1</ComboBoxItem>
+				<ComboBoxItem>Inline Item 2</ComboBoxItem>
+				<ComboBoxItem>Inline Item 3</ComboBoxItem>
+				<ComboBoxItem>Inline Item 4</ComboBoxItem>
+			</ComboBox>
+		</StackPanel>
+		<StackPanel Margin="5">
+			<Calendar SelectionMode="SingleDate" />
+		</StackPanel>
     </StackPanel>
 </Window>
