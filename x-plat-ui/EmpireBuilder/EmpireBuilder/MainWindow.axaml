@@ -9,28 +9,26 @@
 		WindowStartupLocation="CenterScreen"
 		MinWidth="640" MinHeight="480"
 		Width="640" Height="480">
-    <StackPanel Width="640" Height="480" Orientation="Horizontal" 
-				MinWidth="640" MinHeight="480"
-				HorizontalAlignment="Left" VerticalAlignment="Top">
+    <StackPanel Background="gray">
 		<StackPanel Margin="5">
-			<Button x:Name="TheButton" Click="Button_Click" Width="160" >My Button</Button>			
+			<TextBox Name="RailroadQuery" 
+			         AcceptsReturn="True" 
+			         TextWrapping="Wrap" 
+			         Text="Query to execute." 
+			         Width="620"
+			         Margin="5" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+			<Button Name="TheButton"
+			        Margin="5"
+			        VerticalAlignment="Top"
+			        HorizontalAlignment="Left"
+			        Click="Button_Click" Width="160" Height="30" >My Button</Button>			
 		</StackPanel>
-		<StackPanel Margin="5">
-			<CheckBox>Not checked by default</CheckBox>
-			<CheckBox IsChecked="True">Checked by default</CheckBox>
-			<ComboBox SelectedIndex="0">
-				<ComboBoxItem>Inline Item 1</ComboBoxItem>
-				<ComboBoxItem>Inline Item 2</ComboBoxItem>
-				<ComboBoxItem>Inline Item 3</ComboBoxItem>
-				<ComboBoxItem>Inline Item 4</ComboBoxItem>
-			</ComboBox>
-		</StackPanel>
-		<StackPanel Margin="5">
-			<Calendar SelectionMode="SingleDate" />
-		</StackPanel>
-	    <StackPanel>
-		    <TextBox Name="RailroadResponse" AcceptsReturn="True" TextWrapping="Wrap" />
-	    </StackPanel>
+	    <StackPanel Margin="5" Orientation="Horizontal" HorizontalAlignment="Stretch" Background="AliceBlue">
+		    <TextBlock Name="RailroadResponse" 
+		               TextAlignment="Left" 
+		               TextWrapping="Wrap" 
+		               HorizontalAlignment="Stretch"></TextBlock>
+	    </StackPanel>   
     </StackPanel>
 </Window>
 
