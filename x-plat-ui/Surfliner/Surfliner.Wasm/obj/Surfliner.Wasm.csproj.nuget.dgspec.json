@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.Wasm/Surfliner.Wasm.csproj": {}
+  },
+  "projects": {
+    "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.Wasm/Surfliner.Wasm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.Wasm/Surfliner.Wasm.csproj",
+        "projectName": "Surfliner.Wasm",
+        "projectPath": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.Wasm/Surfliner.Wasm.csproj",
+        "packagesPath": "/Users/adron/.nuget/packages/",
+        "outputPath": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.Wasm/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adron/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Uno.UI.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Uno.Wasm.Bootstrap": {
+              "target": "Package",
+              "version": "[1.3.4, )"
+            },
+            "Uno.Wasm.Bootstrap.DevServer": {
+              "target": "Package",
+              "version": "[1.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.4.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

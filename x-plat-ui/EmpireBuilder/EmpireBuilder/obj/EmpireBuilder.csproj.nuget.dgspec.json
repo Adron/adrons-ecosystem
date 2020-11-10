@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\EmpireBuilder.csproj": {}
+    "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/EmpireBuilder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\EmpireBuilder.csproj": {
+    "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/EmpireBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\EmpireBuilder.csproj",
+        "projectUniqueName": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/EmpireBuilder.csproj",
         "projectName": "EmpireBuilder",
-        "projectPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\EmpireBuilder.csproj",
-        "packagesPath": "C:\\Users\\Adron Hall\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\obj\\",
+        "projectPath": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/EmpireBuilder.csproj",
+        "packagesPath": "/Users/adron/.nuget/packages/",
+        "outputPath": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Adron Hall\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/NuGet.Config",
+          "/Users/adron/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/avalonia-ci/api/v2": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -49,6 +45,14 @@
             "Avalonia.Desktop": {
               "target": "Package",
               "version": "[0.9.11, )"
+            },
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "GraphQL.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[*, )"
             }
           },
           "imports": [
@@ -66,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

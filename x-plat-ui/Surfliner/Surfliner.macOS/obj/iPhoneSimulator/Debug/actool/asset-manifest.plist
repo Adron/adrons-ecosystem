@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.macOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon.icns</string>
+			<string>/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.macOS/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car</string>
+			<string>/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.macOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./unologo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.macOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "unologo" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./unologo.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./unologo.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Surfliner/Surfliner.macOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "unologo" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>
