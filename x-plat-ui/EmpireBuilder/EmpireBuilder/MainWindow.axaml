@@ -13,7 +13,7 @@
 				MinWidth="640" MinHeight="480"
 				HorizontalAlignment="Left" VerticalAlignment="Top">
 		<StackPanel Margin="5">
-			<Button Click="Button_Click" Width="160" >My Button</Button>			
+			<Button x:Name="TheButton" Click="Button_Click" Width="160" >My Button</Button>			
 		</StackPanel>
 		<StackPanel Margin="5">
 			<CheckBox>Not checked by default</CheckBox>
@@ -28,5 +28,10 @@
 		<StackPanel Margin="5">
 			<Calendar SelectionMode="SingleDate" />
 		</StackPanel>
+	    <StackPanel>
+		    <TextBox Name="RailroadResponse" AcceptsReturn="True" TextWrapping="Wrap" />
+	    </StackPanel>
     </StackPanel>
 </Window>
+
+

@@ -153,3 +153,15 @@ C:/Users/Adron Hall/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder
 /Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/obj/Debug/netcoreapp3.1/EmpireBuilder.dll
 /Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/obj/Debug/netcoreapp3.1/EmpireBuilder.pdb
 /Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/obj/Debug/netcoreapp3.1/EmpireBuilder.genruntimeconfig.cache
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/GraphQL.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/GraphQL-Parser.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/GraphQL.Client.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/GraphQL.Client.Abstractions.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/GraphQL.Client.Abstractions.Websocket.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/GraphQL.Client.Serializer.Newtonsoft.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/GraphQL.NewtonsoftJson.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/GraphQL.Primitives.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/System.Reactive.Core.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/System.Reactive.Linq.dll
+/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/bin/Debug/netcoreapp3.1/System.Reactive.xml

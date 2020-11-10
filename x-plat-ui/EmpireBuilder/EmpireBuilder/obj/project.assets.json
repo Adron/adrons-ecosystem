@@ -231,6 +231,57 @@
           "lib/netstandard2.0/GraphQL-Parser.dll": {}
         }
       },
+      "GraphQL.Client/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "3.2.0",
+          "GraphQL.Client.Abstractions.Websocket": "3.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/GraphQL.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.dll": {}
+        }
+      },
+      "GraphQL.Client.Abstractions/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "GraphQL.Primitives": "3.2.0",
+          "System.Reactive": "4.3.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.dll": {}
+        }
+      },
+      "GraphQL.Client.Abstractions.Websocket/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "3.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.Websocket.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.Websocket.dll": {}
+        }
+      },
+      "GraphQL.Client.Serializer.Newtonsoft/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "GraphQL.Client.Abstractions.Websocket": "3.2.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/GraphQL.Client.Serializer.Newtonsoft.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Serializer.Newtonsoft.dll": {}
+        }
+      },
       "GraphQL.NewtonsoftJson/3.1.3": {
         "type": "package",
         "dependencies": {
@@ -243,6 +294,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/GraphQL.NewtonsoftJson.dll": {}
+        }
+      },
+      "GraphQL.Primitives/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GraphQL.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Primitives.dll": {}
         }
       },
       "JetBrains.Annotations/10.3.0": {
@@ -3131,6 +3191,68 @@
         "logo.64x64.png"
       ]
     },
+    "GraphQL.Client/3.2.0": {
+      "sha512": "S0UaSc2EAKY2ELe/LHqEw9j0ic7t5acK7LWX4GHGE+YSQL37+7Zp7GKhJjDdXJ05Tyayw8wII7hI7TBUULwlgA==",
+      "type": "package",
+      "path": "graphql.client/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "graphql.client.3.2.0.nupkg.sha512",
+        "graphql.client.nuspec",
+        "icon.png",
+        "lib/net461/GraphQL.Client.dll",
+        "lib/net461/GraphQL.Client.xml",
+        "lib/netstandard2.0/GraphQL.Client.dll",
+        "lib/netstandard2.0/GraphQL.Client.xml"
+      ]
+    },
+    "GraphQL.Client.Abstractions/3.2.0": {
+      "sha512": "1ZUCG978qlWAHNF+wQdmDJNrFTx/y/zSBTyDlQcrEPWLisLMX6l4rjjU2pC7oZwULE3K4NO/XNUTyPVjzho7Vg==",
+      "type": "package",
+      "path": "graphql.client.abstractions/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "graphql.client.abstractions.3.2.0.nupkg.sha512",
+        "graphql.client.abstractions.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/GraphQL.Client.Abstractions.dll",
+        "lib/netstandard2.0/GraphQL.Client.Abstractions.xml"
+      ]
+    },
+    "GraphQL.Client.Abstractions.Websocket/3.2.0": {
+      "sha512": "3FQRD2QysbLJp/fY0iw1J/cWSrc2wn8JRM6nzeQz+f6mW1jNHMjqCyAhz7FoIO2X/jHLiEZ1+EOrZU//YikCYQ==",
+      "type": "package",
+      "path": "graphql.client.abstractions.websocket/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "graphql.client.abstractions.websocket.3.2.0.nupkg.sha512",
+        "graphql.client.abstractions.websocket.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/GraphQL.Client.Abstractions.Websocket.dll",
+        "lib/netstandard2.0/GraphQL.Client.Abstractions.Websocket.xml"
+      ]
+    },
+    "GraphQL.Client.Serializer.Newtonsoft/3.2.0": {
+      "sha512": "7fipj8HT5P4vfeTd6RWHZYVNjRGCmi5z6rvYa4p5odMAGqDdnoqRi2/UFVZJr90azo2KtB6OM26HgCqlO6VNEg==",
+      "type": "package",
+      "path": "graphql.client.serializer.newtonsoft/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "graphql.client.serializer.newtonsoft.3.2.0.nupkg.sha512",
+        "graphql.client.serializer.newtonsoft.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/GraphQL.Client.Serializer.Newtonsoft.dll",
+        "lib/netstandard2.0/GraphQL.Client.Serializer.Newtonsoft.xml"
+      ]
+    },
     "GraphQL.NewtonsoftJson/3.1.3": {
       "sha512": "R7ShdWzwAwUi03Z0dk0/YZrBfXKBXC84qj2itFUXDebc4fEDzNIRu4UosWJdJG6imIgdB1aRVK9SJOtQLHE1aQ==",
       "type": "package",
@@ -3143,6 +3265,21 @@
         "lib/netstandard2.0/GraphQL.NewtonsoftJson.dll",
         "lib/netstandard2.0/GraphQL.NewtonsoftJson.xml",
         "logo.64x64.png"
+      ]
+    },
+    "GraphQL.Primitives/3.2.0": {
+      "sha512": "mHYZECTsq5hclsUJV8mI55XL/85xVpTDdq88k8aLrYVFBwAuPHU4oT7gbzWE41lRWeHEzJeZJ6VdY4Mzoqg3YQ==",
+      "type": "package",
+      "path": "graphql.primitives/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "graphql.primitives.3.2.0.nupkg.sha512",
+        "graphql.primitives.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/GraphQL.Primitives.dll",
+        "lib/netstandard2.0/GraphQL.Primitives.xml"
       ]
     },
     "JetBrains.Annotations/10.3.0": {
@@ -8820,7 +8957,9 @@
       "Avalonia >= 0.9.11",
       "Avalonia.Desktop >= 0.9.11",
       "GraphQL >= 3.1.3",
-      "GraphQL.NewtonsoftJson >= *"
+      "GraphQL.Client >= 3.2.0",
+      "GraphQL.Client.Serializer.Newtonsoft >= 3.2.0",
+      "GraphQL.NewtonsoftJson >= 3.1.3"
     ]
   },
   "packageFolders": {
@@ -8836,15 +8975,13 @@
       "outputPath": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/EmpireBuilder/EmpireBuilder/NuGet.Config",
         "/Users/adron/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/avalonia-ci/api/v2": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -8872,9 +9009,17 @@
             "target": "Package",
             "version": "[3.1.3, )"
           },
+          "GraphQL.Client": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "GraphQL.Client.Serializer.Newtonsoft": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
           "GraphQL.NewtonsoftJson": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[3.1.3, )"
           }
         },
         "imports": [
