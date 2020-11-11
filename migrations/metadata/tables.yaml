@@ -1,24 +1,73 @@
 - table:
     schema: logistics
     name: Consist
+  object_relationships:
+  - name: Train
+    using:
+      foreign_key_constraint_on: trainId
 - table:
     schema: logistics
     name: Operator
+  object_relationships:
+  - name: Railraod
+    using:
+      foreign_key_constraint_on: railroadId
+  - name: Train
+    using:
+      foreign_key_constraint_on: trainId
 - table:
     schema: logistics
     name: Railraod
+  array_relationships:
+  - name: Operators
+    using:
+      foreign_key_constraint_on:
+        column: railroadId
+        table:
+          schema: logistics
+          name: Operator
 - table:
     schema: logistics
     name: Schedule
+  object_relationships:
+  - name: TimePoint
+    using:
+      foreign_key_constraint_on: timePointId
 - table:
     schema: logistics
     name: TimePoint
+  array_relationships:
+  - name: Schedules
+    using:
+      foreign_key_constraint_on:
+        column: timePointId
+        table:
+          schema: logistics
+          name: Schedule
 - table:
     schema: logistics
     name: Train
+  array_relationships:
+  - name: Consists
+    using:
+      foreign_key_constraint_on:
+        column: trainId
+        table:
+          schema: logistics
+          name: Consist
+  - name: Operators
+    using:
+      foreign_key_constraint_on:
+        column: trainId
+        table:
+          schema: logistics
+          name: Operator
 - table:
     schema: logistics
     name: Unit
 - table:
     schema: logistics
     name: UnitType
+- table:
+    schema: logistics
+    name: VerifierDataLog
