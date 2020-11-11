@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpireBuilder", "EmpireBuilder\EmpireBuilder.csproj", "{141F607D-E3BE-485A-B70D-3AB8FD390789}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpireBuilder", "EmpireBuilder\EmpireBuilder.csproj", "{961DE20A-03AA-4BC2-B55E-5B87FDA6A91F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{141F607D-E3BE-485A-B70D-3AB8FD390789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{141F607D-E3BE-485A-B70D-3AB8FD390789}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{141F607D-E3BE-485A-B70D-3AB8FD390789}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{141F607D-E3BE-485A-B70D-3AB8FD390789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961DE20A-03AA-4BC2-B55E-5B87FDA6A91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961DE20A-03AA-4BC2-B55E-5B87FDA6A91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961DE20A-03AA-4BC2-B55E-5B87FDA6A91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961DE20A-03AA-4BC2-B55E-5B87FDA6A91F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {08343787-00A0-4FBE-8AB2-DC396BF3906A}
+		SolutionGuid = {95D70FD5-5F54-45EE-AC99-CE1E071C1FEC}
 	EndGlobalSection
 EndGlobal

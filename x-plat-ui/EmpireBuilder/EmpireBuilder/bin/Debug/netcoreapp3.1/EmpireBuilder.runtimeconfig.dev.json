@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/Users/adron/.dotnet/store/|arch|/|tfm|",
-      "/Users/adron/.nuget/packages"
-    ]
-  }
-}
