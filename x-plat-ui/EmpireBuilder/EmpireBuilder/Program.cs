@@ -1,8 +1,7 @@
-﻿using System;
-using Avalonia;
+﻿using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Logging.Serilog;
-using Avalonia.ReactiveUI;
+using System;
 
 namespace EmpireBuilder
 {
@@ -18,7 +17,6 @@ namespace EmpireBuilder
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
-                .LogToDebug()
-                .UseReactiveUI();
+                .LogToDebug();
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\EmpireBuilder.csproj": {}
+    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\GraphQL.Client.Example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\EmpireBuilder.csproj": {
+    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\GraphQL.Client.Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\EmpireBuilder.csproj",
-        "projectName": "EmpireBuilder",
-        "projectPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\EmpireBuilder.csproj",
+        "projectUniqueName": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\GraphQL.Client.Example.csproj",
+        "projectName": "GraphQL.Client.Example",
+        "projectPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\GraphQL.Client.Example.csproj",
         "packagesPath": "C:\\Users\\Adron Hall\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\EmpireBuilder\\EmpireBuilder\\obj\\",
+        "outputPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,13 +44,13 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Avalonia": {
+            "GraphQL.Client": {
               "target": "Package",
-              "version": "[0.9.11, )"
+              "version": "[3.2.0, )"
             },
-            "Avalonia.Desktop": {
+            "GraphQL.Client.Serializer.Newtonsoft": {
               "target": "Package",
-              "version": "[0.9.11, )"
+              "version": "[3.2.0, )"
             }
           },
           "imports": [

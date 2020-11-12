@@ -1,0 +1,154 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GraphQL.Client.Example/1.0.0": {
+        "dependencies": {
+          "GraphQL.Client": "3.2.0",
+          "GraphQL.Client.Serializer.Newtonsoft": "3.2.0",
+          "System.Reactive.Reference": "4.3.0.0"
+        },
+        "runtime": {
+          "GraphQL.Client.Example.dll": {}
+        }
+      },
+      "GraphQL.Client/3.2.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "3.2.0",
+          "GraphQL.Client.Abstractions.Websocket": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Abstractions/3.2.0": {
+        "dependencies": {
+          "GraphQL.Primitives": "3.2.0",
+          "System.Reactive": "4.3.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Abstractions.Websocket/3.2.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.Websocket.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Serializer.Newtonsoft/3.2.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions.Websocket": "3.2.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Serializer.Newtonsoft.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "GraphQL.Primitives/3.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Primitives.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Reactive/4.3.2": {},
+      "System.Reactive.Reference/4.3.0.0": {
+        "runtime": {
+          "System.Reactive.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.2.55399"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GraphQL.Client.Example/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphQL.Client/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S0UaSc2EAKY2ELe/LHqEw9j0ic7t5acK7LWX4GHGE+YSQL37+7Zp7GKhJjDdXJ05Tyayw8wII7hI7TBUULwlgA==",
+      "path": "graphql.client/3.2.0",
+      "hashPath": "graphql.client.3.2.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Abstractions/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1ZUCG978qlWAHNF+wQdmDJNrFTx/y/zSBTyDlQcrEPWLisLMX6l4rjjU2pC7oZwULE3K4NO/XNUTyPVjzho7Vg==",
+      "path": "graphql.client.abstractions/3.2.0",
+      "hashPath": "graphql.client.abstractions.3.2.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Abstractions.Websocket/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3FQRD2QysbLJp/fY0iw1J/cWSrc2wn8JRM6nzeQz+f6mW1jNHMjqCyAhz7FoIO2X/jHLiEZ1+EOrZU//YikCYQ==",
+      "path": "graphql.client.abstractions.websocket/3.2.0",
+      "hashPath": "graphql.client.abstractions.websocket.3.2.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Serializer.Newtonsoft/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7fipj8HT5P4vfeTd6RWHZYVNjRGCmi5z6rvYa4p5odMAGqDdnoqRi2/UFVZJr90azo2KtB6OM26HgCqlO6VNEg==",
+      "path": "graphql.client.serializer.newtonsoft/3.2.0",
+      "hashPath": "graphql.client.serializer.newtonsoft.3.2.0.nupkg.sha512"
+    },
+    "GraphQL.Primitives/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mHYZECTsq5hclsUJV8mI55XL/85xVpTDdq88k8aLrYVFBwAuPHU4oT7gbzWE41lRWeHEzJeZJ6VdY4Mzoqg3YQ==",
+      "path": "graphql.primitives/3.2.0",
+      "hashPath": "graphql.primitives.3.2.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Reactive/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WhGkScPWxw2pp7UwRW8M1OvYZ3WUDPC2wJ0aiuaB4KRD3bt4wLkgHgYnOUu87WRhsurvv5LN0E63iWOEza2o8g==",
+      "path": "system.reactive/4.3.2",
+      "hashPath": "system.reactive.4.3.2.nupkg.sha512"
+    },
+    "System.Reactive.Reference/4.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

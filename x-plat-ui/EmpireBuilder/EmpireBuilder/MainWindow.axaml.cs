@@ -2,7 +2,7 @@
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace EmpireBuilder.Views
+namespace EmpireBuilder
 {
     public class MainWindow : Window
     {
