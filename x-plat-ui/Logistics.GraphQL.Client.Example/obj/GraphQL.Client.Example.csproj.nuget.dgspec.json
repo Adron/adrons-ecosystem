@@ -1,36 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\GraphQL.Client.Example.csproj": {}
+    "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Logistics.GraphQL.Client.Example/GraphQL.Client.Example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\GraphQL.Client.Example.csproj": {
+    "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Logistics.GraphQL.Client.Example/GraphQL.Client.Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\GraphQL.Client.Example.csproj",
+        "projectUniqueName": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Logistics.GraphQL.Client.Example/GraphQL.Client.Example.csproj",
         "projectName": "GraphQL.Client.Example",
-        "projectPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\GraphQL.Client.Example.csproj",
-        "packagesPath": "C:\\Users\\Adron Hall\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adron Hall\\Codez\\adrons-ecosystem\\x-plat-ui\\Logistics.GraphQL.Client.Example\\obj\\",
+        "projectPath": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Logistics.GraphQL.Client.Example/GraphQL.Client.Example.csproj",
+        "packagesPath": "/Users/adron/.nuget/packages/",
+        "outputPath": "/Users/adron/Codez/adrons-ecosystem/x-plat-ui/Logistics.GraphQL.Client.Example/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Adron Hall\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/adron/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "GraphQL.Client": {
               "target": "Package",
@@ -68,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }
