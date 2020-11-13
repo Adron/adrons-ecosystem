@@ -1,5 +1,5 @@
 version: 2
-endpoint: https://nationlogistics.hasura.app
+endpoint: http://logisticsdatalayer.westus2.azurecontainer.io:8080
 metadata_directory: metadata
 actions:
   kind: synchronous

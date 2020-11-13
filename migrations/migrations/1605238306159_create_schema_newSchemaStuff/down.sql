@@ -1,0 +1,1 @@
+drop schema "newSchemaStuff" cascade;

@@ -71,3 +71,6 @@
 - table:
     schema: logistics
     name: VerifierDataLog
+- table:
+    schema: newSchemaStuff
+    name: newTableWhatever
