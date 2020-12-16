@@ -9,3 +9,4 @@ terraform apply -auto-approve \
   -var 'username='$PUSERNAME'' \
   -var 'password='$PPASSWORD'' \
   -var 'database=logistics'
+
